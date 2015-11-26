@@ -14,6 +14,7 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         mInstance = this;
+        //初始化图片加载
         Fresco.initialize(this);
     }
 
